@@ -1,0 +1,16 @@
+Eliezer Soares Flores
+16:14
+1) Não utilizar o CLS token nos demais métodos de agregação de features (média, mediana, PCA, etc)
+2) Verificar se o K-fold está sendo executado somente no subconjunto de treino-validação
+Eliezer Soares Flores
+16:20
+https://edisciplinas.usp.br/pluginfile.php/4129451/mod_resource/content/1/model_selection_evaluation.pdf
+Eliezer Soares Flores
+16:43
+3) Usar o método de Friedman seguido pelo método de Nemenyi para avaliar todas as alternativas de agregação (usar o LDA como classificador fixo)
+Eliezer Soares Flores
+16:45
+Obs.: montar uma tabela em que cada linha é um dataset (fold de val. = 1; fold de val. =2, ... fold de val = 5) e cada coluna é um método de agregação (média, mediana, etc)
+Eliezer Soares Flores
+16:48
+4) No final de tudo isso, vamos testar o método escolhido (melhor opção de acordo com o método de Nemenyi) vs diferentes CNNs
