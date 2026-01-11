@@ -7,7 +7,7 @@ Este projeto explora **Vision Transformers (ViTs)**, uma arquitetura baseada em 
 
 O trabalho busca abordar os seguintes tópicos:
 
-1. **Refinamento de um modelo pré-treinado** utilizando o banco de dados **MELANOMAS**.
+1. **Refinamento de um modelo pré-treinado** utilizando o banco de dados **[IMAGE OF MELANOMAS AND NAEVUS](https://www.cs.rug.nl/~imaging/databases/melanoma_naevi/index.html)**.
 2. Integração com um classificador **LDA (Linear Discriminant Analysis)**.
 3. Comparação de diferentes métodos de agregação de features, incluindo:
    - Média
@@ -21,3 +21,7 @@ O trabalho busca abordar os seguintes tópicos:
 ---
 
 ### Espaço reservado para imagem:
+others database of melanomas:
+- https://data.mendeley.com/datasets/zr7vgbcyr2/1
+
+- https://derm.cs.sfu.ca/Download.html
